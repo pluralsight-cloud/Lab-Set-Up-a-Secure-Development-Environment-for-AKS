@@ -73,3 +73,6 @@ Update-SessionEnvironment
 choco install vscode -y --no-progress
 choco install git -y --no-progress
 choco install nodejs --version="22.19.0" -y --no-progress
+
+# Install VSCode Extensions
+code --extensions-dir "%ProgramFiles%\Microsoft VS Code\resources\app\extensions" --install-extension ms-azuretools.vscode-containers
